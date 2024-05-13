@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Foot Looser | Camisetas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <nav class="navbar container">
+    <!-- Logo + Tittle -->
+    <div class="logo">
+      <a href="./index.html"> <img src="assets/logos/logo-white.png" alt="Logo" width="200">
+        <h1>Foot Looser | Camisetas</h1>
+      </a>
+    </div>
+    <div class="upper">
+      <a href="#"><img src="assets/others/lenguaje-spanish.png" alt="Spanish" width="20">Español</a>
+      <a href="#">Encontrar una tienda</a>
+      <a href="./login.html"><img src="assets/icons/avatar.png" alt="avatar" width="20">Iniciar sesión</a>
+    </div>
+    <div class="mid">
+      <!-- Search -->
+      <div class="mid-container">
+        <input type="text" class="search-box" placeholder="Buscar">
+        <button class="mid-button"><img src="assets/icons/search.png" alt="search" width="24"></button>
+        <div class="mid-button"><a href="#"><img class="icons" src="assets/icons/like.png" alt="like" width="24"></a>
+        </div>
+        <div class="mid-button"><a href="#"><img class="icons" src="assets/icons/shoping-cart.png" alt="shoping cart"
+              width="24"></a></div>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <div class="basket-icon">
+      <a href="#" class="basket-link">
+        <img src="assets/icons/basket.png" alt="Cistella" width="30">
+        <span class="basket-count">0</span>
+      </a>
+    </div>
+    <div class="products">
+      <a href="./shoe.html">Zapatillas</a>
+      <a href="./t-shirt.html">Camisetas</a>
+      <a href="./hoodie.html">Sudaderas</a>
+      <a href="./tracksuit-pants.html">Pantalones</a>
+      <a href="./socks.html">Calcetines</a>
+    </div>
+    <!-- All shoes -->
+    <div class="cart-container">
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal1">
+          <img src="./assets/products/t-shirt/tshirt-1-1.webp" alt="adidas Inter Miami Cf 23/24 Away" width="248">
+        </button>
+        <h4>adidas Inter Miami Cf 23/24 Away</h4>
+      </div>
+      <div class="modal" id="modal1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">adidas Inter Miami Cf 23/24 Away</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal1"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-1-2.webp" alt="adidas Inter Miami Cf 23/24 Away" width="512">
+              <p class="modal-price">99,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal1">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal2">
+          <img src="./assets/products/t-shirt/tshirt-2-1.webp" alt="Jordan Flight Essential" width="248">
+        </button>
+        <h4>Jordan Flight Essential</h4>
+      </div>
+      <div class="modal" id="modal2">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Jordan Flight Essential</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal2"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-2-2.webp" alt="Jordan Flight Essential" width="512">
+              <p class="modal-price">44,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal2">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal3">
+          <img src="./assets/products/t-shirt/tshirt-3-1.webp" alt="Jordan Flight Essential" width="248">
+        </button>
+        <h4>Jordan Flight Essential</h4>
+      </div>
+      <div class="modal" id="modal3">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Jordan Flight Essential</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal2"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-3-2.webp" alt="Jordan Flight Essential" width="512">
+              <p class="modal-price">39,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal3">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal4">
+          <img src="./assets/products/t-shirt/tshirt-4-1.webp" alt="Converse All Star Mountain" width="248">
+        </button>
+        <h4>Converse All Star Mountain</h4>
+      </div>
+      <div class="modal" id="modal4">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Converse All Star Mountain</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal4"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-4-2.webp" alt="Converse All Star Mountain" width="512">
+              <p class="modal-price">29,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal4">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal5">
+          <img src="./assets/products/t-shirt/tshirt-5-1.webp" alt="Jordan Flight Mvp" width="248">
+        </button>
+        <h4>Jordan Flight Mvp</h4>
+      </div>
+      <div class="modal" id="modal5">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Jordan Flight Mvp</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal5"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-5-2.webp" alt="Jordan Flight Mvp" width="512">
+              <p class="modal-price">39,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal5">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal6">
+          <img src="./assets/products/t-shirt/tshirt-6-1.webp" alt="Nike Nba Brooklyn Nets" width="248">
+        </button>
+        <h4>Nike Nba Brooklyn Nets</h4>
+      </div>
+      <div class="modal" id="modal6">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Nike Nba Brooklyn Nets</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal6"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-6-2.webp" alt="Nike Nba Brooklyn Nets" width="512">
+              <p class="modal-price">104,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal6">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal7">
+          <img src="./assets/products/t-shirt/tshirt-7-1.webp" alt="Nike Sportswear" width="248">
+        </button>
+        <h4>Nike Sportswear</h4>
+      </div>
+      <div class="modal" id="modal7">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Nike Sportswear</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal7"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-7-2.webp" alt="Nike Sportswear" width="512">
+              <p class="modal-price">39,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal7">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal8">
+          <img src="./assets/products/t-shirt/tshirt-8-1.webp" alt="Nike Essentials" width="248">
+        </button>
+        <h4>Nike Essentials</h4>
+      </div>
+      <div class="modal" id="modal8">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Nike Essentials</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal8"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-8-2.webp" alt="Nike Essentials" width="512">
+              <p class="modal-price">39,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal8">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal9">
+          <img src="./assets/products/t-shirt/tshirt-9-1.webp" alt="Jordan Flight Mvp Aop" width="248">
+        </button>
+        <h4>Jordan Flight Mvp Aop</h4>
+      </div>
+      <div class="modal" id="modal9">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">Jordan Flight Mvp Aop</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal9"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-9-2.webp" alt="Jordan Flight Mvp Aop" width="512">
+              <p class="modal-price">39,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal9">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carts">
+        <button class="btn btn-primary openModal" data-target="modal10">
+          <img src="./assets/products/t-shirt/tshirt-10-1.webp" alt="adidas Classic Monogram Graphic" width="248">
+        </button>
+        <h4>adidas Classic Monogram Graphic</h4>
+      </div>
+      <div class="modal" id="modal10">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title">adidas Classic Monogram Graphic</h3>
+              <button type="button" class="btn-close closeModal" data-target="modal10"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./assets/products/t-shirt/tshirt-10-2.webp" alt="adidas Classic Monogram Graphic" width="512">
+              <p class="modal-price">39,99€ | IVA incluido</p>
+              <p>Paga en 3 plazos sin intereses (0% TAE). Klarna.</p>
+              <button class="modal-cart" type="button">Añadir al carrito</button>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary closeModal" data-target="modal10">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="./assets/logos/logo-white.png" alt="Logo del pie de página" width="100">
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Acerca de nosotros</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="copyright">© 2023 Footlooserdotcom, Inc. Todos los derechos reservado</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </main>
+</body>
+
+</html>
+
+<!-- Products links -->
+<!-- T-shirts -->
+<!-- tshirt 1 https://www.footlocker.es/es/product/adidas-inter-miami-cf-23-24-away-hombre-jerseys-replicas/317369198780.html adidas Inter Miami Cf 23/24 Away -->
+<!-- tshirt 2 https://www.footlocker.es/es/product/jordan-flight-essential-hombre-t-shirts/317366955944.html Jordan Flight Essential -->
+<!-- tshirt 3 https://www.footlocker.es/es/product/jordan-flight-essential-hombre-t-shirts/317366942810.html Jordan Flight Essential -->
+<!-- tshirt 4 https://www.footlocker.es/es/product/converse-all-star-mountain-hombre-t-shirts/317339165010.html Converse All Star Mountain -->
+<!-- tshirt 5 https://www.footlocker.es/es/product/jordan-flight-mvp-hombre-t-shirts/317358621810.html Jordan Flight Mvp -->
+<!-- tshirt 6 https://www.footlocker.es/es/product/nike-nba-brooklyn-nets-hombre-jerseys-replicas/317138680480.html Nike Nba Brooklyn Nets -->
+<!-- tshirt 7 https://www.footlocker.es/es/product/nike-sportswear-hombre-t-shirts/317365334261.html Nike Sportswear -->
+<!-- tshirt 8 https://www.footlocker.es/es/product/nike-essentials-hombre-t-shirts/317361871410.html Nike Essentials -->
+<!-- tshirt 9 https://www.footlocker.es/es/product/jordan-flight-mvp-aop-hombre-t-shirts/317365106480.html Jordan Flight Mvp Aop -->
+<!-- tshirt 10 https://www.footlocker.es/es/product/adidas-classic-monogram-graphic-hombre-t-shirts/317368895610.html adidas Classic Monogram Graphic -->
